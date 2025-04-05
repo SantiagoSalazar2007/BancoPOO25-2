@@ -21,7 +21,7 @@ private:
     Cuenta* buscarPorNombre(string Titular);
     Cuenta* buscarPorCuenta(string NumeroCuenta);
     vector <Cuenta*> listarCuentas();
-    Cuenta* modificarInfoCuenta();
+    Cuenta* modificarInfoCuenta(string NumeroCuenta);
     bool existeCuenta(string NumeroCuenta);
     string getNumeroCuenta();
 
